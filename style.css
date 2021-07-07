@@ -1,5 +1,42 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
 }
+
+
+header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+body > header > nav > a { /* header children to nav children (which are links)*/
+  background-color: #d3d3d3;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+figure {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#featured-property > p {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+#details {
+  display: block;
+  margin: 0 auto;
+}
+
+#details > div {
+  float: left;
+  width: 25%;
+  background: yellow;
+  text-align: center;
+}
+
